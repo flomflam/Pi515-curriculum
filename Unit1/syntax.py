@@ -24,7 +24,17 @@
 
 
 
+#1
+#print("Hello, Ang")
 
+#2
+#print("spring\nsummer\nfall\nwinter")
+
+#3
+#print("spring\n\nsummer\n\nfall\n\nwinter")
+#or
+#print("\n")
+#print("spring"+2*"\n"+"summer"+2*"\n"+"fall"+2*"\n"+"winter")
 
 
 
