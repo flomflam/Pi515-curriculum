@@ -7,7 +7,11 @@
 #leave a comment about your code
 #this is my comment!
 
-
+# multiline comment - doc string
+"""
+- good idea to keep notes
+- on what this code does
+"""
 
 #Exercises:
 #1. Print the phrase “Hello, [your name]”
