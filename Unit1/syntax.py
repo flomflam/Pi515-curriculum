@@ -1,5 +1,5 @@
 #Print "Hello World"
-
+print("hello world")
 
 #print the seasons on separate lines
 
@@ -7,11 +7,33 @@
 #leave a comment about your code
 #this is my comment!
 
-# multiline comment - doc string
+# multiline comment
 """
 - good idea to keep notes
 - on what this code does
 """
+
+# this works as well
+'''
+one comment
+two comments
+'''
+
+Var = 5
+print(Var)
+
+v1, v2 = "variable", 5678656436
+print(v1)
+print(v2)
+
+colors = ["red", 65, "blue"]
+x,y,z = colors
+print(x)
+print(y)
+print(z)
+
+print(x+str(y))
+print(x,str(y))
 
 #Exercises:
 #1. Print the phrase “Hello, [your name]”
