@@ -1,6 +1,7 @@
 # Operators
 
-# Arithmatic operators
+
+# Arithmetic operators
 
 # Addition (+)
 x=5+9
@@ -22,6 +23,7 @@ print(10%3)
 # Floor division (the real number result of division rounded down) (//)
 print(10//3)
 
+
 # Comparison operators
 
 # Greater than (>)
@@ -37,18 +39,20 @@ print(5>=5)
 # Less than or equal to (<=)
 print(3<=5)
 
+
 #Logical operators
+
 #and operator - both must be true
 print(True and True)
-
 #or operator - one condition must be true
 print(True or False)
-
 #not operator - opposite value of the condition
 print(not False)
 
+
 #Membership operator
+
 #in - if a value is within a collection
 someTxt = "Red is my favorite color."
-print("Blue" in someTxt)
+print("Red"in  someTxt)
 print("Blue" not in someTxt)
