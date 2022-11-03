@@ -3,8 +3,8 @@
 # 2a. Create a boolean variable to indicate rounds of the game and a while loop using that boolean
 # 2b. Create a variable that stores the result of input provided by the user, ask them to - "Type a number for an upper bound: "
 # 3a. Check if a valid number was entered using an if statement
-# 3b. If it is a valid number, print "Let's play!"
-# 3c. "Scrub" the value of the entered number, by setting it to an int
+# 3b. If it is a valid number, print "Let's play!" and set the boolean variable to False
+# 3c. "Scrub" the value of the entered number, by setting it to an int 
 # 3d. Write the else condition and give the user an error message
 
 # TEST IT OUT AND SEE WHAT HAPPENS WITH DIFFERENT INPUTS
