@@ -18,9 +18,9 @@
 
 ##########
 #if statements
-a = 33
-b = 200
-c = 75
+# a = 33
+# b = 200
+# c = 75
 
 # if a < c and a < b:
 # 		print ('both these conditions are true')
@@ -75,27 +75,38 @@ c = 75
 
 #########
 # For Loops
-# fruits = ['mango','cherry','pineapple', 'Kiwi']
-# for fruit in fruits:
-#   print(fruit)
-
-# colors = ['red', 'yellow', 'green', 'blue', 'magenta', 'orange', 'turquoise']
-
-# for color in colors:
-#   print(color)
-# print a certain statement for one object, but print something else for all the other objects
-
-# for x in range (10):
+# for x in range (11):
 # 	print (x)
 # for x in range (2, 10):
 # 	print (x)
 # for x in range (3, 30, 3):
 # 	print (x)
 
+# fruits = ['mango','cherry','pineapple', 'Kiwi']
+# for fruit in fruits:
+#   print(fruit)
+#   print(fruits)
+
+# colors = ['red', 'yellow', 'green', 'blue', 'magenta', 'orange', 'turquoise']
+
+# for color in colors:
+#   print(color)
+
+# number_list = []
+# print(number_list)
+# for x in range(10):
+#   number_list.append(x)
+#   print(number_list)
+
+# print(number_list)
+
+# print a certain statement for one object, but print something else for all the other objects
+
+# append list + if clause
 list = []
 print(list)
 for x in range(1, 101):
-  if not x % 5 == 0:
+  if x % 2 == 0:
     list.append(x)
 
 print(list)

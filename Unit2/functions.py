@@ -1,15 +1,41 @@
 # print from function
-def func():
-  print("Hello from a function!")
+# print("Hello from a function!")
+# print("Hello from a function AGAIN!")
+# print("Hello from a function!")
+# print("Hello from a function AGAIN!")
+# print("Hello from a function!")
+# print("Hello from a function AGAIN!")
+# print("Hello from a function!")
+# print("Hello from a function AGAIN!")
+# print("Hello from a function!")
+# print("Hello from a function AGAIN!")
 
-func()
+# def func():
+#   print("Hello from a function!")
+#   print("Hello from a function AGAIN!")
+
+# for x in range(5):
+#   func()
+
 
 # # first name parameter
-# def func (fname):
-# 		print (fname + " Smith")
+# def func(fname):
+# 		print(fname + " Smith")
 
 # func("John")
 # func("Paul")
+
+# "My favorite holiday is: Christmas"
+
+holidayList=["Valentine's Day","Christmas","Halloween","New Years Day","Easter"]
+
+def func(holiday):
+  print("My favorite holiday is " + holiday)
+
+for x in holidayList :
+  func(x)
+
+
 
 # # format name  
 # def func (fname, lname):
