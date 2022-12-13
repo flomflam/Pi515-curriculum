@@ -79,10 +79,10 @@ c = 75
 # for fruit in fruits:
 #   print(fruit)
 
-colors = ['red', 'yellow', 'green', 'blue', 'magenta', 'orange', 'turquoise']
+# colors = ['red', 'yellow', 'green', 'blue', 'magenta', 'orange', 'turquoise']
 
-for color in colors:
-  print(color)
+# for color in colors:
+#   print(color)
 # print a certain statement for one object, but print something else for all the other objects
 
 # for x in range (10):
@@ -91,6 +91,14 @@ for color in colors:
 # 	print (x)
 # for x in range (3, 30, 3):
 # 	print (x)
+
+list = []
+print(list)
+for x in range(1, 101):
+  if not x % 5 == 0:
+    list.append(x)
+
+print(list)
 
 # for x in range (6, 17):
 #   if x == 10:
