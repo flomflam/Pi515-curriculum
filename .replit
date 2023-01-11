@@ -1,4 +1,4 @@
-run = "python3 ChristmasProject/12days.py"
+run = "python3 RockPaperScissors/main.py"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"
